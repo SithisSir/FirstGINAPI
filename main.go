@@ -16,13 +16,13 @@ type new struct {
 	Date  string `json:"time" db:"time"`
 }
 
-var schema = `
-CREATE TABLE news (
-    id text,
-    title text,
-    text text,
-	time text
-)`
+//var schema = `
+//CREATE TABLE news (
+//    id text,
+//    title text,
+//    text text,
+//	time text
+//)`
 
 //Слайс новостей
 var news = []new{}
